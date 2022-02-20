@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+jupyter = "*"
+python-mnist = "*"
+h5py = "*"
+tensorflow-macos = "*"
+tensorflow-metal = "*"
+matplot = "*"
+jupyter-contrib-nbextensions = "*"
+pyvista = "*"
+ipyvtklink = "*"
+jupyter-to-medium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
